@@ -1,0 +1,162 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+}
+
+/* Formatação da tela */
+
+section#corpo {
+    width: 1100px;
+    margin: 0px auto 0px auto;
+}
+
+body {
+    margin: 0;
+    background: rgb(211, 211, 211);
+}
+
+p {
+    
+    font-family: 'Gayathri', sans-serif;
+    color: black;
+    margin: auto;    
+}
+
+h2 {
+    font-family: 'Gayathri', sans-serif;
+}
+
+div {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 30px 0px -12px 0px;
+    font-family: "Gayathri", sans-serif;
+    bottom: 25px;
+}
+
+
+img{
+    border-radius: 25px;
+}
+
+.Principal {
+    margin: 0px auto 0px auto;
+    padding: 0;
+}
+
+/* Formatação do Menu */
+
+.menu h1{
+    display: none;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: none;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+
+.menu ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    color: none;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.menu ul li{
+    display: inline-block;
+    
+}
+
+.menu ul li a {
+    padding: 15px 20px; /*O primeiro é o espaciamento entre o bloco e as letras// O segundo é o espaciamento entre as letras*/
+    display: inline-block;
+    text-decoration: none; /*Tirar a referencia hipertexto do Menu*/
+    font-family: 'Gayathri', sans-serif;
+    font-size: 12pt;
+    color: white;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+    border-radius: 25px;
+}
+
+.menu a:hover {
+    background-color: rgba(0, 0, 0, 0.30);
+    color: rgba(0, 0, 0, 2.0);
+    border-radius: 25px;
+}
+
+
+div.imgPessoal {
+    display: table-cell;
+    padding: 140px 19px;
+    float: left;
+    
+}
+
+div.conteudo {
+    font-family: "Gayathri", sans-serif;
+    display: table-cell;
+    padding: 120px 40px;
+    padding-bottom: 400px;
+    text-align: justify;
+    
+}
+
+/* Formatação do Rodapé */
+
+footer#rodape {
+    width: 100%;
+    
+    border-top: 1px solid #606060; /*Borda a cima do rodapé*/
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+footer#rodape a {
+    color: black;
+}
+
+.redes {
+    width: 100%;
+    text-align: center;
+}
+
+.redes img {
+    width: 05%;
+}
+
+.redes ul li {
+    list-style-type: none;
+    display: inline;
+}
+@media only screen and (min-width: 769px) {
+    footer {
+        clear: both;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .redes img {
+        width: 10%;
+    }
+    .redes {
+        width: 45%;
+        float: right;
+        margin-right: 30%;
+
+    }
+
+}
